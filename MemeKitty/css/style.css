@@ -1,0 +1,191 @@
+
+header{
+  font-family: 'Carnivalee Freakshow', arial;
+  background: #CCC;
+}
+
+body{
+  font-family: 'Carnivalee Freakshow', arial;
+  background-color: #CCC !important;
+
+
+}
+h1, h2, h3{
+  font-family: 'Carnivalee Freakshow', arial;
+
+}
+
+::selection{
+  background: #000;
+
+}
+
+::-moz-selection{
+  background:#000;
+}
+
+h3::selection{
+  color:#fff;
+  background:#FF0000;
+}
+
+h3::-moz-selection{
+  color:#fff;
+  background:#FF0000;
+}
+
+h1::-moz-selection{
+  color:#fff;
+  background:#FF0000;
+
+}
+h1::selection{
+  color:#fff;
+  background:#FF0000;
+
+}
+
+.banner{
+  width:100%;
+  border: 5px solid red;
+  display:flex;
+  flex-direction: row;
+  height:13rem;
+
+}
+
+.logo{
+  width:20%;
+  border:5px solid;
+  -webkit-order: 1;
+  -ms-order: 1;
+  order: 1;
+  background-image: url("../img/Pepekitty.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.heading{
+  width:100%;
+  border:5px solid;
+-webkit-order: 2;
+-ms-order: 2;
+order: 2;
+background:linear-gradient(to bottom, #F7720C 5%,#FFE400 50%,#F7720C 100%);
+text-align: center;
+
+}
+
+
+.heading h1{
+  font-size: 70px;
+  justify-content: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image:linear-gradient(to bottom, #F7720C 5%,#FFE400 50%,#F7720C 100%);
+  margin:auto;
+  margin-top:1.5rem;
+  background-image: linear-gradient(#eee 15%, #333 45%, #eee 100%);
+
+
+
+}
+
+
+
+.nav-link{
+  border-left: 2px inset red;
+  border-right: 2px outset red;
+  font-family: 'Carnivalee Freakshow', arial;
+
+}
+
+.sidebar{
+  float:left;
+  width:30%;
+  background-color: #333;
+  color:#fff;
+  padding:5px;
+  box-sizing: border-box;
+  margin-right: 10%;
+  flex-direction: row;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border:2px outset #410768;
+
+}
+
+.MainContent{
+  float:right;
+  width:70%;
+  padding:5px;
+  box-sizing: border-box;
+  background-color: #333;
+  margin-left: 10%;
+  color:#fff;
+  flex-direction: row;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border:2px outset #410768;
+
+}
+
+.PageTitle{
+  border-bottom:3px solid #ccc;
+  color:#FFF;
+  font-family: 'Carnivalee Freakshow', arial;
+  text-align: center;
+}
+
+.Gallery{
+
+}
+.Gallery h3{
+  text-decoration: underline;
+}
+
+.PageLink a{
+  color:#77f442;
+  text-decoration: underline;
+}
+
+.ChooseCategory{
+  width:100%;
+  border: 5px solid red;
+  display:flex;
+  flex-direction: row;
+}
+
+/* .CategoryImgs{
+  width:100%;
+  border: 5px solid red;
+  display:flex;
+  flex-direction: row;
+} */
+
+
+.CategoryImgs img{
+  margin-top:3rem;
+  margin:left:2rem;;
+  width:100%;
+  border:5px solid;
+  -webkit-order: 1;
+  -ms-order: 1;
+  order: 1;
+}
+
+
+
+footer{
+	position:relative;
+  margin-top: -180px;
+  clear:both;
+  background-color: #000;
+  text-align: center;
+  color:#fff;
+  padding:2rem 1rem;
+  width: 100%;
+  border-top:3px solid #FF0000;
+}
